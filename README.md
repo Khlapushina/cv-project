@@ -2,7 +2,7 @@
 # Computer Vision Project
 Elbrus Bootcamp | Phase-2 | Team Project 
 # Team
-[Daniil Lvov](https://github.com/Norgan97)
+* [Daniil Lvov](https://github.com/Norgan97)
 2. DmitryDorzhievich
 3. 
 ___
