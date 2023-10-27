@@ -36,6 +36,6 @@ _
 1. Clone this repository to your local machine.
 2. Install the required libraries by running the command *pip install -r requirements.txt* in your terminal or command prompt.
 3. Once the libraries are installed, navigate to the repository's directory in your terminal.
-4. Run the command *streamlit run Main.py* in your terminal to start the application.
+4. Run the command *streamlit run main.py* in your terminal to start the application.
 
 This will launch the Streamlit server, and you can access the applications by opening a browser window and navigating to the specified URL.
