@@ -19,6 +19,7 @@ model = torch.hub.load(
 
 model.eval()
 model.conf = 0.3 
+st.title('Brain tumor detection')
 
 st.title("Single Detection")
 uploaded_file = st.file_uploader("Загрузите фотографию", type=["png", "jpg", "jpeg"])

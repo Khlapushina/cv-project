@@ -19,6 +19,8 @@ model = load_model()
 model.to(DEVICE)
 model.eval()
 
+st.title('Denoising images with noise')
+
 loaded_image = st.file_uploader('Загрузите картинку с текстом')
 
 def predict(img):
