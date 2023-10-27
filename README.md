@@ -27,6 +27,7 @@ ___
 ![](https://github.com/Norgan97/cv-project/blob/main/21.png)
 ___
 ___
+## How to run locally?
 ## To run the provided applications on your computer, follow these steps:
 
 1. Clone this repository to your local machine.
