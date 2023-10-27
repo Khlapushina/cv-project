@@ -12,10 +12,10 @@ from io import BytesIO
 
 from torchvision import transforms as T
 model = torch.hub.load(
-    'yolov5/', # пути будем указывать гдето в локальном пространстве
+    'ultralytics/yolov5', # пути будем указывать гдето в локальном пространстве
     'custom', # непредобученная
     path='weights/spidyandiron.pt', # путь к нашим весам
-    source='local' # откуда берем модель – наша локальная
+    force_reload=True
     )
 
 st.title("Single Detection")
