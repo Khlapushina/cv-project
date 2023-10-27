@@ -1,29 +1,26 @@
 # cv-project
 # Computer Vision Project
 Elbrus Bootcamp | Phase-2 | Team Project 
-# Team
+## Team
 * [Daniil Lvov](https://github.com/Norgan97)
 * [Dmitry Dorzhievich](https://github.com/DmitryDorzhievich)
 * [Larisa Khlapushina](https://github.com/Khlapushina)
-  
+## This repository contains a multipage application project using Streamlit. The project was worked on by: ***Lvov Daniil, Budazhapov Dmitry, Khlapushina Larisa. 
 ___
-## В данном репозитории представлен проект multipage-приложения с использованием streamlit. 
-### Над проектом работали: ***Львов Даниил, Будажапов Дмитрий, Хлапушина Лариса***
-___
-___
-## Данное приложение решает несколько задач:
-1. Детекция объектов с помощьюYOLOv5.
-    1. Предназначено для детекции опухолей мозга по фотографии.
+## Tasks 
+This application solves several tasks:
+1. Object detection using YOLOv5.
+   1. Intended for brain tumor detection from a photograph.
 ![](https://cdn.readovka.ru/n/1104148/1200x630/ec7da68ba3.jpg)
-    2. Для детекции spiderman'а и ironman'а.
+   2. For detecting Spiderman and Ironman. You can upload your photo, and the application will highlight the tumor area in the image or show the comic book heroes.
 ![](https://s2.best-wallpaper.net/wallpaper/2560x1440/1906/Iron-Man-and-Spider-man-DC-comics_2560x1440.jpg)
-**Вы можете загрузить свое фото и приложение выделит область опухоли на снимке или покажет героев комиксов**
 ___
-2. Детекция объектов с помощьюYOLOv8:  
-  * Используется для детекции ветрогенераторов и кабельных вышек.
+2. Object detection using YOLOv8:
+   - Used for detecting wind turbines and cable towers. You can upload a photo, and our application will highlight all the wind turbine images in your picture. Additionally, you can watch a video test in the application where our model will also highlight the locations of these objects.
 ![](https://get.pxhere.com/photo/field-windmill-wind-cumulus-machine-wind-turbine-electricity-energy-england-power-mill-grassland-wind-farm-wind-turbines-835672.jpg)
-**Вы можете загрузить фото. Наше приложение выделит все изображения ветрогенераторов на вашей картинке. Кроме того, в приложении можно посмотреть видео-тест, на котором наша модель также               выделит расположение этих объектов**
 ___
+3. Document denoising using an autoencoder:
+   - This application allows you to get a clean image of the uploaded text photo with various defects."
 3. Очищение документов от шумов с помощью автоэнкодера:
 **Это приложение позволит вам получить чистое изображение загруженного вами фото текста с различными дефектами**
 ![](https://github.com/Norgan97/cv-project/blob/main/1.png)
