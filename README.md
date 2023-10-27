@@ -23,8 +23,8 @@ ___
    - This application allows you to get a clean image of the uploaded text photo with various defects."
 3. Очищение документов от шумов с помощью автоэнкодера:
 **Это приложение позволит вам получить чистое изображение загруженного вами фото текста с различными дефектами**
-![](https://github.com/Norgan97/cv-project/blob/main/21.png)
 ![](https://github.com/Norgan97/cv-project/blob/main/2.png)
+![](https://github.com/Norgan97/cv-project/blob/main/21.png)
 ___
 ___
 ## Для запуска представленных приложений на вашем компьютере склонируйте данный репозиторий, загрузите библиотеки из файла ***requirements.txt*** и запустите в терминале команду ***streamlit run Main.py***
