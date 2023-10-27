@@ -3,15 +3,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 from PIL import Image
-from model_3.model import  ConvAutoencoder
-from model_3.preprocessing import preprocess
+from weights.model import  ConvAutoencoder
+from weights.preprocessing import preprocess
 from torchvision.io import read_image
 
 @st.cache_resource
 
 def load_model():
     model = ConvAutoencoder()
-    model.load_state_dict(torch.load('model_3/autoencoder.pt', map_location = 'cpu'))
+    model.load_state_dict(torch.load('weights/autoencoder.pt', map_location = 'cpu'))
     return model
 
 DEVICE = 'cpu'

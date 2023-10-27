@@ -56,7 +56,7 @@ if image_type == "Ньюфаг":
         img = Image.fromarray(result.plot()[:, :, ::-1])
         st.image(img)
 if image_type == "Тест":
-    video_file = open('testvideo.mp4', 'rb')
+    video_file = open('images/testvideo.mp4', 'rb')
     video_bytes = video_file.read()
 
     st.video(video_bytes)
