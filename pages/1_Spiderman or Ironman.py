@@ -15,7 +15,6 @@ model = torch.hub.load(
     'ultralytics/yolov5', # пути будем указывать гдето в локальном пространстве
     'custom', # непредобученная
     path='weights/spidyandiron.pt', # путь к нашим весам
-    force_reload=True
     )
 
 st.title("Single Detection")
