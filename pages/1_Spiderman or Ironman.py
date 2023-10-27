@@ -17,6 +17,8 @@ model = torch.hub.load(
     path='weights/spidyandiron.pt', # путь к нашим весам
     )
 
+st.title('Spiderman and Ironman detection')
+
 st.title("Single Detection")
 uploaded_file = st.file_uploader("Upload your image", type=["png", "jpg", "jpeg"])
 

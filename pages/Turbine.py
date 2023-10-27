@@ -19,7 +19,7 @@ def load_model(weights_path):
 model = load_model('weights/turbine.pt')
 model = model.cpu()
 
-
+st.title('Turbine or cable tower detection')
 
 
 
