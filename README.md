@@ -1,4 +1,10 @@
-# cv-project 
+# cv-project
+# Computer Vision Project
+Elbrus Bootcamp | Phase-2 | Team Project 
+# Team
+1. ![]( https://github.com/Norgan97/)
+2. DmitryDorzhievich
+3. 
 ___
 ## В данном репозитории представлен проект multipage-приложения с использованием streamlit. 
 ### Над проектом работали: ***Львов Даниил, Будажапов Дмитрий, Хлапушина Лариса***
