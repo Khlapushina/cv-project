@@ -23,7 +23,7 @@ ___
 3. Document denoising using an autoencoder:
    - This application allows you to get a clean image of the uploaded text photo with various defects."
 ![](https://github.com/Norgan97/cv-project/blob/main/images/2.png)
-![]()
+![](https://github.com/Norgan97/cv-project/blob/main/images/21.png)
 ___
 ## Deployment
 The service is implemented on [Streamlit](https://cv-project-as5vxgxapfhae8psceu5xf.streamlit.app)
