@@ -69,7 +69,7 @@ url = st.text_input("Enter image URL:")
 
     
 # При нажатии на кнопку "Загрузить", выводим изображение
-if st.button("Upload"):
+if url:
     try:
         if url.startswith("data:image"):
             # Handle data URI
