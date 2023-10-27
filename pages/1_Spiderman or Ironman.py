@@ -12,10 +12,9 @@ from io import BytesIO
 
 from torchvision import transforms as T
 model = torch.hub.load(
-    'yolov5/', # пути будем указывать гдето в локальном пространстве
+    'ultralytics/yolov5', # пути будем указывать гдето в локальном пространстве
     'custom', # непредобученная
     path='weights/spidyandiron.pt', # путь к нашим весам
-    source='local' # откуда берем модель – наша локальная
     )
 
 st.title("Single Detection")
@@ -70,7 +69,7 @@ url = st.text_input("Enter image URL:")
 
     
 # При нажатии на кнопку "Загрузить", выводим изображение
-if st.button("Upload"):
+if url:
     try:
         if url.startswith("data:image"):
             # Handle data URI
