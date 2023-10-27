@@ -28,7 +28,7 @@ ___
 ![](https://github.com/Norgan97/cv-project/blob/main/21.png)
 ___
 ## Deployment
-The service is implemented on [Streamlit](https://cv-project-as5vxgxapfhae8psceu5xf.streamlit.app/)
+The service is implemented on [Streamlit](https://cv-project-as5vxgxapfhae8psceu5xf.streamlit.app)
 _
 ## How to run locally?
 ## To run the provided applications on your computer, follow these steps:
