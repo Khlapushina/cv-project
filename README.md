@@ -5,7 +5,7 @@ Elbrus Bootcamp | Phase-2 | Team Project
 * [Daniil Lvov](https://github.com/Norgan97)
 * [Dmitry Budajapov](https://github.com/DmitryDorzhievich)
 * [Larisa Khlapushina](https://github.com/Khlapushina)
-## This repository contains a multipage application project using Streamlit. The project was worked on by: ***Lvov Daniil, Budazhapov Dmitry, Khlapushina Larisa. 
+This repository contains a multipage application project using Streamlit. The project was worked on by: ***Lvov Daniil, Budazhapov Dmitry, Khlapushina Larisa. 
 ___
 ## Tasks 
 This application solves several tasks:
