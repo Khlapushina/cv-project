@@ -2,16 +2,13 @@ from ultralytics import YOLO
 import streamlit as st
 from PIL import Image
 import io
-import cv2
 import os
 import torch
 import torchvision.transforms as transforms
 import requests
 from torchvision import transforms as T
 import base64
-import cv2
 import numpy as np
-import tempfile
 
 @st.cache_resource
 
